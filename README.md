@@ -1,7 +1,7 @@
-# Thesis-scripts
+Scripts for Master_Thesis_CryptoSentiment
 
-Note on Data Frames
+Note on Data Availability and Scripts
 
-The full datasets used for sentiment analysis and modelling are not included in this repository due to size 
-and licensing considerations. All data was preprocessed and merged locally, and the final DataFrame used for 
-model training can be fully recreated using the provided scripts.
+The final processed DataFrame used for model training (e.g., final_df.csv) is included in this repository for reproducibility. However, the original raw data sources (such as Twitter and financial news sentiment datasets) are excluded due to size limitations and licensing considerations.
+
+Please also note that several intermediate processing scripts and steps are not included in this repository, as they were used for internal preprocessing tasks such as data cleaning, filtering, and merging. The main modelling and evaluation scripts are provided to ensure full replication of the key analysis steps.
